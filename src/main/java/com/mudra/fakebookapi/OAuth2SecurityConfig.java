@@ -1,4 +1,4 @@
-package com.mudra.fakebookapi;
+/*package com.mudra.fakebookapi;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -13,7 +13,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
  * 	- tokens come in as JWT 
  * 	- No sessions created during requests (No JSESSIONID Cookie created)
  */
-@Configuration
+/*@Configuration
 public class OAuth2SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override
@@ -27,3 +27,4 @@ public class OAuth2SecurityConfig extends WebSecurityConfigurerAdapter {
           .sessionManagement().sessionCreationPolicy(SessionCreationPolicy.STATELESS);
 	}
 }
+*/

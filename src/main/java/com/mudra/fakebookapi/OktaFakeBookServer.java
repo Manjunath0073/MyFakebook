@@ -42,7 +42,7 @@ public class OktaFakeBookServer {
 	/*
 	 * Returns all FakeBook objects
 	 */
-	@GetMapping
+	/*@GetMapping
 	public List<FakeBook> getAllBooks(JwtAuthenticationToken authn) {
 		System.out.println(((Jwt)authn.getPrincipal()).getClaims());
 		return listBooks;
